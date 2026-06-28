@@ -355,76 +355,32 @@ MINA BABY
 
 </section>
 
+<!-- Danh sách bài viết sẽ được JavaScript tạo tự động -->  
+  
 <section class="comments">
 
-<h2>9 Bình Luận</h2>
+<h2>Bình luận</h2>
 
-<div class="comment">
+<div id="disqus_thread"></div>
 
-<img src="https://cdn-icons-png.flaticon.com/512/149/149071.png">
+<script>
+var disqus_config = function () {
+    this.page.url = window.location.href;
+    this.page.identifier = window.location.pathname;
+    this.page.title = document.title;
+};
 
-<div>
+(function () {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://mina-baby.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
 
-<h4>Tiến</h4>
-
-<small>Tháng 10 15, 2023</small>
-
-<p>
-E muốn tải jw cad về macbook M2 mà tải về cài vào máy nhưng
-không mở được, ad có thể chỉ giúp em không ạ.
-</p>
-
-</div>
-
-</div>
-
-<div class="comment">
-
-<img src="https://cdn-icons-png.flaticon.com/512/149/149071.png">
-
-<div>
-
-<h4>MINA BABY</h4>
-
-<small>Tháng 5 2, 2025</small>
-
-<p>Bạn cứ xem kỹ bài 1 bạn nha.</p>
-
-</div>
-
-</div>
-
-<div class="comment">
-
-<img src="https://cdn-icons-png.flaticon.com/512/149/149071.png">
-
-<div>
-
-<h4>luận</h4>
-
-<small>Tháng 7 2, 2024</small>
-
-<p>Rất có ích, cảm ơn admin nhiều.</p>
-
-</div>
-
-</div>
-
-<div class="comment">
-
-<img src="https://cdn-icons-png.flaticon.com/512/149/149071.png">
-
-<div>
-
-<h4>MINA BABY</h4>
-
-<small>Tháng 5 2, 2025</small>
-
-<p>Cảm ơn bạn ❤️</p>
-
-</div>
-
-</div>
+<noscript>
+Please enable JavaScript to view the comments.
+</noscript>
 
 </section>
   

@@ -386,7 +386,6 @@ document.getElementById("video"+id).innerHTML=`
 width="100%"
 height="500"
 src="https://www.youtube.com/embed/${id}?autoplay=1"
-title="YouTube video"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen>
@@ -407,30 +406,7 @@ allowfullscreen>
 <p>${post.text}</p>
 
 </div>
-
-<img class="main" src="${post.image}" alt="${post.title}" loading="lazy">
-
-<div class="content">
-
-<div class="youtube" id="video${post.youtube}">
-
-<div class="thumb" onclick="playVideo('${post.youtube}')">
-
-<img loading="lazy"
-src="https://img.youtube.com/vi/${post.youtube}/hqdefault.jpg"
-alt="YouTube Thumbnail">
-
-<div class="play">▶</div>
-
-</div>
-
-</div>
-
-`;
-
-});
-
-</script>
-
+</script>  
+  
 </body>
 </html>
